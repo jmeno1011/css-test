@@ -11,6 +11,7 @@ import Flex3 from "./component/flexbox/Flex3";
 import Flex4 from "./component/flexbox/Flex4";
 import Flex5 from "./component/flexbox/Flex5";
 import Flex6 from "./component/flexbox/Flex6";
+import ActionMenu from "./component/action-menu/ActionMenu";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -25,6 +26,7 @@ ReactDOM.render(
             <Route path="glow-shrink" element={<Flex5 />}></Route>
             <Route path="flex-basis" element={<Flex6 />}></Route>
           </Route>
+          <Route path="action-menu" element={<ActionMenu />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

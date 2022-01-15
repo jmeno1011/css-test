@@ -9,8 +9,8 @@ function App() {
         <Link to="/flex-box" className="nav__link">
           FlexBox
         </Link>
-        <Link to="/" className="nav__link">
-          Posts
+        <Link to="/action-menu" className="nav__link">
+          ActionMenu
         </Link>
         <Link to="/" className="nav__link">
           Settings
