@@ -12,6 +12,7 @@ import Flex4 from "./component/flexbox/Flex4";
 import Flex5 from "./component/flexbox/Flex5";
 import Flex6 from "./component/flexbox/Flex6";
 import ActionMenu from "./component/action-menu/ActionMenu";
+import CodeBox from "./component/code-box/CodeBox";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.render(
             <Route path="flex-basis" element={<Flex6 />}></Route>
           </Route>
           <Route path="action-menu" element={<ActionMenu />}></Route>
+          <Route path="code-box" element={<CodeBox />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

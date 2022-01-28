@@ -12,6 +12,9 @@ function App() {
         <Link to="/action-menu" className="nav__link">
           ActionMenu
         </Link>
+        <Link to="/code-box" className="nav__link">
+          CodeBox
+        </Link>
         <Link to="/" className="nav__link">
           Settings
         </Link>
