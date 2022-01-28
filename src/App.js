@@ -1,5 +1,7 @@
 import "./App.css";
 import { Link, Outlet } from "react-router-dom";
+import Toggle from "./component/toggle/Toggle";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Link to="/" className="nav__link">
           Settings
         </Link>
+        <Toggle />
       </nav>
       <Outlet />
     </div>

@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sample1 from "./img/image_sample1.jpg";
 import "./action-menu.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { heart } from "@fortawesome/free-regular-svg-icons";
 
 function ActionMenu() {
   const [navigations, setNavigation] = useState(false);
