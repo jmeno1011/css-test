@@ -9,6 +9,9 @@ function App() {
         <Link to="/flex-box" className="nav__link">
           FlexBox
         </Link>
+        <Link to="/grid-box" className="nav__link">
+          GridBox
+        </Link>
         <Link to="/action-menu" className="nav__link">
           ActionMenu
         </Link>

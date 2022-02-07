@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./flexbox.css";
 
-function FlexBox() {
+export function FlexBox() {
   return (
     <>
       <h1 className="in-title">Flex Box</h1>
@@ -43,5 +43,3 @@ function FlexBox() {
     </>
   );
 }
-
-export default FlexBox;

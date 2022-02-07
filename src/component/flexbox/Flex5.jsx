@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex5() {
+export function Flex5() {
   return (
     <>
       <h2 className="inner-title">flex-grow, flex-shrink</h2>
@@ -39,5 +39,3 @@ function Flex5() {
     </>
   );
 }
-
-export default Flex5;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex6() {
+export function Flex6() {
   return (
     <>
       <h2 className="inner-title">flex-basis</h2>
@@ -28,5 +28,3 @@ function Flex6() {
     </>
   );
 }
-
-export default Flex6;

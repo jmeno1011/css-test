@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex2() {
+export function Flex2() {
   return (
     <>
       <h2 className="inner-title">flex-direction: column</h2>
@@ -24,5 +24,3 @@ function Flex2() {
     </>
   );
 }
-
-export default Flex2;

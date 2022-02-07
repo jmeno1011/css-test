@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex1() {
+export function Flex1() {
   return (
     <>
       <h2 className="inner-title">flex</h2>
@@ -21,5 +21,3 @@ function Flex1() {
     </>
   );
 }
-
-export default Flex1;

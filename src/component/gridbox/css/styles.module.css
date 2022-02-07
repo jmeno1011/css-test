@@ -1,0 +1,133 @@
+/* grid 1 */
+.father {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  gap: 10px;
+}
+.child {
+  background-color: peru;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* grid 2 */
+.grid__div1 {
+  display: grid;
+  /* grid-template-columns: repeat(4, 200px); */
+  grid-template-columns: auto 200px;
+  grid-template-rows: 100px repeat(2, 200px) 100px;
+  grid-template-areas:
+    "header header header header"
+    "content content . nav"
+    "content content . nav"
+    "footer footer footer footer";
+}
+.header {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
+}
+
+/* grid 3 */
+.grid__div2 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+.header2 {
+  background-color: #2ecc71;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.content2 {
+  background-color: #3498db;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.nav2 {
+  background-color: #8e44ad;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.footer2 {
+  background-color: #f39c12;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+/* grid 4 */
+.grid__div3 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+.header3 {
+  background-color: #2ecc71;
+  /* grid-column: 1 / 5; 아래랑 같음*/
+  grid-column: 1 / -1;
+}
+.content3 {
+  background-color: #3498db;
+  grid-column: 1 / -2;
+  /* grid-row: 2 / 4; */
+  grid-row: span 2;
+}
+.nav3 {
+  background-color: #8e44ad;
+  grid-row: span 2;
+}
+.footer3 {
+  background-color: #f39c12;
+  /* grid-column: 1 / -1; 아래랑 같음 span = grid-cell*/
+  grid-column: span 4;
+}
+
+/* grid 5 */
+.grid__div4 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: [first-line] 100px [second-line] 100px [third-line] 100px [fourth-line] 100px [fifth-line] 100px;
+  grid-template-rows: repeat(4, 100px);
+}
+
+.header4 {
+  background-color: #2ecc71;
+  /* grid-column: 1 / 5; 아래랑 같음*/
+  grid-column: span 4;
+}
+.content4 {
+  background-color: #3498db;
+  grid-column: first-line / fourth-line;
+  /* grid-row: 2 / 4; */
+  grid-row: span 2;
+}
+.nav4 {
+  background-color: #8e44ad;
+  grid-row: span 2;
+}
+.footer4 {
+  background-color: #f39c12;
+  /* grid-column: 1 / -1; 아래랑 같음 span = grid-cell*/
+  grid-column: span 4;
+}

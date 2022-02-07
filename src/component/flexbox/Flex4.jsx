@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex4() {
+export function Flex4() {
   return (
     <>
       <h2 className="inner-title">flex-wrap</h2>
@@ -37,5 +37,3 @@ function Flex4() {
     </>
   );
 }
-
-export default Flex4;

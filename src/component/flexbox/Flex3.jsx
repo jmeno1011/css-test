@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flex3() {
+export function Flex3() {
   return (
     <>
       <h2 className="inner-title">align-self</h2>
@@ -25,5 +25,3 @@ function Flex3() {
     </>
   );
 }
-
-export default Flex3;
