@@ -24,6 +24,12 @@ export function GridBox() {
         <Link to="grid-template" className="in-link">
           6. grid-template
         </Link>
+        <Link to="grid-place-items" className="in-link">
+          7. grid-place&items
+        </Link>
+        <Link to="grid-place-content" className="in-link">
+          8. grid-place-content
+        </Link>
       </nav>
       <Outlet />
     </>

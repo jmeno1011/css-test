@@ -22,6 +22,8 @@ import {
   Grid4,
   Grid5,
   Grid6,
+  Grid7,
+  Grid8,
 } from "./component/gridbox";
 
 ReactDOM.render(
@@ -44,6 +46,8 @@ ReactDOM.render(
             <Route path="grid-short-cut" element={<Grid4 />} />
             <Route path="grid-line-naming" element={<Grid5 />} />
             <Route path="grid-template" element={<Grid6 />} />
+            <Route path="grid-place-items" element={<Grid7 />} />
+            <Route path="grid-place-content" element={<Grid8 />} />
           </Route>
           <Route path="action-menu" element={<ActionMenu />}></Route>
         </Route>

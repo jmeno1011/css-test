@@ -11,6 +11,7 @@ export function Grid6() {
           grid-template 을 통해서도 가로는 이름(grid-area), 세로는 1fr로
           설정가능
         </p>
+        <p>+++ grid-template에서는 repeat()를 사용할 수 없다.</p>
       </span>
       <div className={style.grid__div5}>
         <div className={style.header5}></div>
