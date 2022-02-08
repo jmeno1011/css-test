@@ -24,13 +24,14 @@ import {
   Grid6,
   Grid7,
   Grid8,
+  Grid9,
 } from "./component/gridbox";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/css-test/" element={<App />}>
           <Route path="flex-box/*" element={<FlexBox />}>
             <Route path="flex" element={<Flex1 />} />
             <Route path="flex-direction" element={<Flex2 />} />
@@ -48,6 +49,7 @@ ReactDOM.render(
             <Route path="grid-template" element={<Grid6 />} />
             <Route path="grid-place-items" element={<Grid7 />} />
             <Route path="grid-place-content" element={<Grid8 />} />
+            <Route path="grid-auto-row-columns" element={<Grid9 />} />
           </Route>
           <Route path="action-menu" element={<ActionMenu />}></Route>
         </Route>

@@ -30,6 +30,9 @@ export function GridBox() {
         <Link to="grid-place-content" className="in-link">
           8. grid-place-content
         </Link>
+        <Link to="grid-auto-row-columns" className="in-link">
+          9. grid-auto-row-columns
+        </Link>
       </nav>
       <Outlet />
     </>

@@ -7,3 +7,4 @@ export { Grid5 } from "./Grid5";
 export { Grid6 } from "./Grid6";
 export { Grid7 } from "./Grid7";
 export { Grid8 } from "./Grid8";
+export { Grid9 } from "./Grid9";

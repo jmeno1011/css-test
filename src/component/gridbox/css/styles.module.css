@@ -220,3 +220,22 @@
 .footer7 {
   background-color: #f39c12;
 }
+
+/* grid 9 */
+.grid__div8 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  /* grid-auto-rows는 위에 반복되고 남은 부분을 자동적으로 지정해준다. */
+  /* grid-auto-columns도 rows랑 같음 */
+  /* grid-auto-rows: 200px; */
+  /* flex-direction이랑 같음 */
+  /* grid-auto-flow: column; */
+}
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+.item:nth-child(even) {
+  background-color: #3498db;
+}
