@@ -21,9 +21,9 @@ export function GridBox() {
         <Link to="grid-line-naming" className="in-link">
           5. grid-line-naming
         </Link>
-        {/* <Link to="flex-basis" className="in-link">
-          6. flex-basis
-        </Link> */}
+        <Link to="grid-template" className="in-link">
+          6. grid-template
+        </Link>
       </nav>
       <Outlet />
     </>

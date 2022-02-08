@@ -131,3 +131,37 @@
   /* grid-column: 1 / -1; 아래랑 같음 span = grid-cell*/
   grid-column: span 4;
 }
+
+/* grid 6 */
+.grid__div5 {
+  display: grid;
+  gap: 10px;
+  height: 50vh;
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  grid-template:
+    /* "header header header header" 1fr
+    "content content content nav" 2fr
+    "footer footer footer footer" 1fr  */
+    /* 위 방식이랑 아래 방식이랑 같음 , 라벨링이 가능한것을 보여주기 위함임 */
+    [header-start] "header header header header" 1fr [header-end]
+    [content-start] "content content content nav" 2fr [content-end]
+    [footer-start] "footer footer footer footer" 1fr [footer-end];
+}
+
+.header5 {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+.content5 {
+  background-color: #3498db;
+  grid-area: content;
+}
+.nav5 {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+.footer5 {
+  background-color: #f39c12;
+  grid-area: footer;
+}
