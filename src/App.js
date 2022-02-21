@@ -15,6 +15,9 @@ function App() {
         <Link to="action-menu" className="nav__link">
           ActionMenu
         </Link>
+        <Link to="toggle-button" className="nav__link">
+          ToggleButton
+        </Link>
         <Link to="/css-test" className="nav__link">
           Settings
         </Link>

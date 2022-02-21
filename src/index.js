@@ -26,6 +26,7 @@ import {
   Grid8,
   Grid9,
 } from "./component/gridbox";
+import { ToggleButton } from "./component/toggle-button/ToggleButton";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -52,6 +53,7 @@ ReactDOM.render(
             <Route path="grid-auto-row-columns" element={<Grid9 />} />
           </Route>
           <Route path="action-menu" element={<ActionMenu />}></Route>
+          <Route path="toggle-button" element={<ToggleButton />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
