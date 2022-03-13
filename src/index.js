@@ -27,6 +27,7 @@ import {
   Grid9,
 } from "./component/gridbox";
 import { ToggleButton } from "./component/toggle-button/ToggleButton";
+import Chartjs from "./component/chartjs/Chartjs";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -54,6 +55,7 @@ ReactDOM.render(
           </Route>
           <Route path="action-menu" element={<ActionMenu />}></Route>
           <Route path="toggle-button" element={<ToggleButton />}></Route>
+          <Route path="chart-js" element={<Chartjs />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

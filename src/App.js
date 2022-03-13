@@ -18,6 +18,9 @@ function App() {
         <Link to="toggle-button" className="nav__link">
           ToggleButton
         </Link>
+        <Link to="chart-js" className="nav__link">
+          Chart-js
+        </Link>
         <Link to="/css-test" className="nav__link">
           Settings
         </Link>
