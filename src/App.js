@@ -21,6 +21,9 @@ function App() {
         <Link to="chart-js" className="nav__link">
           Chart-js
         </Link>
+        <Link to="magnet" className="nav__link">
+          Magnet
+        </Link>
         <Link to="/css-test" className="nav__link">
           Settings
         </Link>
